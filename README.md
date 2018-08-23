@@ -2,6 +2,7 @@
 apk下载工具类，支持自动删除下载的apk
 
 1.添加依赖
+
 	allprojects {
 		repositories {
 			...
@@ -23,8 +24,7 @@ apk下载工具类，支持自动删除下载的apk
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
             </intent-filter>
         </receiver>
-
-3.
+3.使用
 
 downloadId = UpdateAppManager.downloadApk(UpdateActivity.this, url, "版本升级", "apk");
 
