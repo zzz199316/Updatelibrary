@@ -10,7 +10,7 @@ import java.io.File;
 
 public class CommonCons {
 
-    public static final double version = 1.3;
+    public static final double version = 1.0;
     public final static String SAVE_APP_NAME = "download"+version+".apk";
 
     public final static String SAVE_APP_LOCATION = "/download";
