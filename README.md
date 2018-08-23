@@ -18,6 +18,7 @@ apk下载工具类，支持自动删除下载的apk
 
 
 2.注册广播接收者
+
  	<receiver android:name="com.plgf.updatelibrary.receiver.InstallReceiver">
 	   <intent-filter android:priority="20">
               
